@@ -1,0 +1,58 @@
+body {
+    background-color: beige;
+}
+
+.container-1, .container-2, .container-3 {
+    border: solid 5px black;
+    min-height: 200px;
+    width: 900px;
+    margin: 10px auto;
+}
+
+.container-1 {
+    background-color: aqua;
+}
+
+.container-2 {
+    background-color: cadetblue;
+}
+
+.container-3 {
+    background-color: chocolate;
+}
+
+.container-1 table{
+    border: solid 3px green;
+    width: 400px;
+    height: 200px;
+    margin: 10px auto;
+}
+
+
+.container-1 table td, th{
+    border: solid 1px grey;
+    height: 30px;
+}
+
+.container-2 img{
+    border: dotted 4px rgb(4, 19, 102);
+    display: block;
+    margin: 20px;
+    border-radius: 20%;
+}
+
+.container-3 .forms, form{
+    border: solid 1px blue;
+    min-height: 100px;
+    width: 600px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.forms {
+    background-color: rgb(87, 225, 225);
+}
+
+.container-3 form{
+    background-color: burlywood;
+}

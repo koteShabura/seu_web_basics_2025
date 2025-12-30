@@ -1,0 +1,30 @@
+.container{
+    width: 500px;
+    height: 400px;
+    border: solid 2px black;
+    padding: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px 100px;
+    margin-bottom: 20px;
+}
+
+.sp-1{
+    color: red;
+    font-size: 2em;
+}
+
+.inner{
+    background-color: silver;
+    padding: 10px;
+}
+
+.tb-1{
+    border: solid 1px black;
+    width: 600px;
+    height: 400px;
+    border-collapse: collapse;
+}
+
+.tb-1 td{
+    border: solid 10px green;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture _ 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button onclick="funct_click()">JavaScript Example 1</button>
+    </div>
+    <script>
+        console.log("Message from JS")
+
+        function fun_1(){
+            a = 34
+            console.log(a-7)
+        }
+
+        fun_1()
+
+        function fun_2(){
+            a = 3.8
+            b = 10.8
+            if(a < b){
+                console.log(b-a)
+                console.log("Hello Wolrd!!!")
+            }else{
+                console.log("a - b = ")
+                console.log(a-b)
+            }
+        }
+
+        fun_2()
+
+        function func_3(t){
+            document.write(t)
+        }
+
+        func_3("<h1>JavaScript</h1>")
+
+        function func_4(n, l){
+            document.write(`${n} - ${l} - სეუს სტუდენტი`)
+        }
+
+        func_4("გიორგი", "ანთიძე")
+
+        function funct_click(){
+            document.write("<h1>გამარჯობა მე ვარ ჯავასკრიპტი</h1>")
+        }
+
+        function funct_4(){
+            for(i=0; i<10; i++){
+                console.log("Number - > "+i)
+            }
+
+            console.log("<===============>")
+
+            x = 0
+
+            while(x < 9){
+                console.log("JavaScript!!!!")
+                x++
+            }
+        }
+        funct_4()
+    </script>
+</body>
+</html>
